@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Dynalight&family=Nanum+Gothic&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* GLOBAL */
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 20px;
+    background-color: #f59d9c;
+   
+   }
+
+#header .header__logo a{
+    text-decoration: none;
+    
+}
+
+#header .header__logo a p{
+    color: blueviolet;
+    font-family: 'Dynalight';
+    font-size: 35px;
+    
+    
+}
+#header .header__nav{
+    margin-top: 20px;
+}
+#header .header__nav ul li{
+    display: inline;
+   list-style: none;
+   margin: 20px;
+}
+
+#header .header__nav ul li a:hover{
+    color: #a0d2a1;
+}
+
+#header .header__nav ul li a{
+    text-decoration: none;
+}
+
+#header .header__carrito a img{
+    height: 50px;
+    width: auto;
+}
+
+/* Footer */
+#footer{
+    background-color: slategrey;
+    display: flex;
+    justify-content: space-around;
+    color: blueviolet;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#footer .footer__redes ul li{
+    list-style: none;
+}
+#footer .footer__redes ul li a img{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#footer .footer__copy p{
+    margin-top: 95%;
+}
+#footer .footer__nav ul li{
+    list-style: none;
+    margin-top: 20px;
+}
+#footer .footer__nav ul li a{
+    text-decoration: none;
+}
+
+/*----------INDEX-----------------------*/
+
+/* Main */
+main{
+    background-color: #beed8d;
+    margin: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+main .main__texto{
+    text-align: center;
+}
+main .main__texto h1,p{
+    margin: 20px;
+}
+main .main__banner img{
+    height: 400px;
+}
+main div h1,p{
+    color: blueviolet;
+}
+main div button{
+    color: blueviolet;
+}
+main div button a{
+    color: blueviolet;
+    text-decoration: none;
+}
+/* Section1 */
+#section1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #85c1e9;
+    margin: 20px 0px;
+    padding: 50px;
+}
+#section1 .section1__texto{
+    color: blueviolet;
+}
+#section1 .section1__banner img{
+    width: 400px;
+    height: auto;
+}
+#section1 .section1__banner{
+    align-content: center;
+}
+#section1 .section1__button{
+    margin-left: 100px;
+}
+ #section1 .section1__button ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+/* Section2 */
+#section2{
+    margin: 20px 0px;
+    background-color: #e9e785;
+    color: blueviolet;
+    height: 350px;
+}
+#section2 .section2__titulo{
+    margin-left: 45%;
+    padding-top: 20px;
+}
+#section2 .section2__contenedor{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+#section2 .section2__contenedor .section2__contenedor__categorias{
+    margin-top: 30px;
+}
+#section2 .section2__contenedor .section2__contenedor__categorias h3,img,button{
+    margin: 30px;
+}
+#section2 .section2__contenedor .section2__contenedor__categorias button{
+    margin-left: 70px;
+}
+
+
+/*-------------LIBROS-----------------*/
+/* Menu Categorias*/
+#section__libros{
+    display: flex;
+    justify-content: start;
+    background-color: #85c1e9;
+}
+
+#section__libros .section__libros__menu{
+    background-color: #a5e985;
+}
+
+/* Catalogo libros */
+#section__libros .section__libros__catalogo .section__libros__catalogo__libro{
+    display: flex;
+    justify-content: space-around;
+}
+#section__libros .section__libros__catalogo .section__libros__catalogo__libro .section__libros__catalogo__libro__texto{
+    margin-top: 30px;
+}
+#section__libros .section__libros__catalogo .section__libros__catalogo__libro .section__libros__catalogo__libro__precio{
+    margin-top: 30px;
+}
+#section__libros .section__libros__catalogo .section__libros__catalogo__libro .section__libros__catalogo__libro__portada a{
+    text-decoration: none;
+}
+#section__libros .section__libros__catalogo .section__libros__catalogo__libro .section__libros__catalogo__libro__portada a img{
+    height: 150px;
+    width: auto;
+}
+
+
+/*-------------Nosotros-----------------*/
+
+#section__nosotros .section__nosotros__banner{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px;
+    color: blueviolet;
+    background-color: #e9e785;
+}
+#section__nosotros .section__nosotros__banner .section__nosotros__banner__img img{
+    height: 300px;
+    width: auto;
+}
+#section__nosotros .section__nosotros__banner .section__nosotros__banner__texto{
+    text-align: center;
+}
+#section__nosotros .section__nosotros__banner .section__nosotros__banner__texto p{
+    width: 50%;
+    margin-left: 25%;
+}
+#section__nosotros .section__nosotros__banner .section__nosotros__banner__texto h2,p,button{
+    margin-top: 50px;
+}
+#section__nosotros .section__nosotros__banner .section__nosotros__banner__texto button a{
+    text-decoration: none;
+}
+
+
+#section__redes{
+    display: flex;
+    justify-content: space-around;
+    background-color: #a5e985;
+    text-align: center;
+    color: blueviolet;
+}
+#section__redes .section__redes__cont div button{
+    width: 100px;
+}
+#section__redes .section__redes__cont div button a{
+    text-decoration: none;
+}
+
+
+/*-------------Asesoramiento-----------------*/
+
+#section__asesoria {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: blueviolet;
+    margin: 20px 0px;
+    background-color: beige;
+    padding: 20px 0px;
+    text-align: center;
+}
+#section__asesoria .section__asesoria__texto h1,h2,p{
+    margin: 20px 0px;
+}
+#section__asesoria .section__asesoria__img img{
+    height: 400px;
+    width: auto;
+}
+#section__asesoria__form{
+    border-style: solid;
+}
+#section__asesoria__form form div{
+    margin: 20px 30%;
+    display: flex;
+    justify-content:start ;
+}
+#section__asesoria__form form div label,input,textarea{
+    margin: 30px;
+}
+#section__asesoria__form form div label,input,textarea{
+    margin: 30px;
+}
+
+
+/*-------------Carrito-----------------*/
+
+#section__carrito{
+    background-color: #beed8d;
+}
+#section__carrito .section__carrito__descr-libro__img img{
+    height: 200px;
+    width: auto;
+}
+
+#section__carrito .section__carrito__descr-libro{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+    background-color: #85c1e9;
+}
+#section__carrito .section__carrito__descr-libro div{
+    margin: 40px;
+}
+#section__carrito .section__carrito__btn{
+    margin-left: 18%;
+}
+#section__carrito .section__carrito__btn a{
+    text-decoration: none;
+}
+#section__carrito .section__carrito__descr-libro .section__carrito__descr-libro__cant {
+    display: flex;
+    justify-content: start;
+    align-content: start;
+}
+#section__carrito .section__carrito__descr-libro .section__carrito__descr-libro__cant #cantidad {
+    height: 20px;
+    margin-right: 15px;
+}
+
+#section__carrito .section__carrito__precio{
+    margin: 100px;
+}
+#section__carrito .section__carrito__precio div{
+    display: flex;
+    justify-content: end;
+}
+#section__carrito .section__carrito__precio div p{
+    margin: 0 100px;
+}
+#section__carrito .section__carrito__precio div button{
+    margin-right:100px;
+}
+
+
