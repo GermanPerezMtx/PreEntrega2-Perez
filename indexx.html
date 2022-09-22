@@ -4,53 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Prosa | Tienda de libros</title>
     <link rel="stylesheet" href="./css/styles.css">
-    <title>Bootstrap</title>
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-warning">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">La Prosa</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarScroll">
-                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height:100px;">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./indexB.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./html/nosotros.html">Nosotros</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="./html/libros.html" role="button"     data-bs-toggle="dropdown" aria-expanded="false">
-                    Libros
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="./html/libros.html">Infantiles</a></li>
-                        <li><a class="dropdown-item" href="./html/libros.html">Novelas</a></li>
-                        <li><a class="dropdown-item" href="./html/libros.html">Finanzas</a></li>
-                        <li><a class="dropdown-item" href="./html/libros.html">Especiales</a></li>
-                    </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./html/asesoramiento.html">Asesoramiento</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./html/carrito.html">carrito</a>
-                      </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Buscar</button>
-                </form>
-            </div>
+    <header id="header">
+        <div class="header__logo">
+            <a href="./index.html"><p>La Prosa</p></a>
         </div>
-    </nav>
+        <nav class="header__nav">
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./html/libros.html">libros</a></li>
+                <li><a href="./html/nosotros.html">Nosotros</a></li>
+                <li><a href="./html/asesoramiento.html">Asesoramiento</a></li>
+            </ul>
+        </nav>
+        <div class="header__carrito">
+            <a href="./html/carrito.html"><img src="./img/carrito.png" alt="ir al carrito"></a>
+        </div>
+    </header>
 
-      <main id="main">
+    <main id="main">
         <div class="main__banner">
             <img src="./img/banner-main.jpg" alt="Si te vas a perder que sea en un libro">
         </div>
@@ -59,7 +35,7 @@
             <P>La Prosa te ayuda a encontrar tu libro</P>
         </div>
         <div class="main__button">
-            <button type="button" class="btn btn-warning"><a href="./html/asesoramiento.html">Asesoramiento</a></button>
+            <button><a href="./html/asesoramiento.html">Asesoramiento</a></button>
         </div>
     </main>
 
@@ -80,7 +56,7 @@
             <img src="./img/banner-section1.jpg" alt="libros">
         </div>
     </section>
-    
+
     <section id="section2">
         <div class="section2__titulo">
             <h2>Lo mas buscado</h2>
@@ -95,7 +71,7 @@
                     <img src="#" alt="img cuentos Infantiles">
                 </div>
                 <div class="section2__contenedor__categorias__btn">
-                    <button type="button" class="btn btn-warning"><a href="#">Ver mas</a></button>
+                    <button><a href="#">Ver mas</a></button>
                 </div>
             </div>
 
@@ -107,7 +83,7 @@
                     <img src="#" alt="img cuentos Infantiles">
                 </div>
                 <div class="section2__contenedor__categorias__btn">
-                    <button type="button" class="btn btn-warning"><a href="#">Ver mas</a></button>
+                    <button><a href="#">Ver mas</a></button>
                 </div>
             </div>
 
@@ -119,12 +95,12 @@
                     <img src="#" alt="img cuentos Infantiles">
                 </div>
                 <div class="section2__contenedor__categorias__btn">
-                    <button type="button" class="btn btn-warning"><a href="#">Ver mas</a></button>
+                    <button><a href="#">Ver mas</a></button>
                 </div>
             </div>
         </div>
     </section>
-    
+
     <footer id="footer">
         <div class="footer__redes">
             <h4>Encontranos en:</h4>
@@ -149,8 +125,6 @@
             </ul>
         </div>
     </footer>
-
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    
 </body>
 </html>

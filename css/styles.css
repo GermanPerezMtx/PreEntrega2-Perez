@@ -46,7 +46,7 @@
 }
 
 #header .header__carrito a img{
-    height: 50px;
+    height: 25px;
     width: auto;
 }
 
@@ -150,8 +150,12 @@ main div button a{
 }
 #section2 .section2__contenedor{
     margin: 20px;
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    margin-left: 17%;
+    
 }
 #section2 .section2__contenedor .section2__contenedor__categorias{
     margin-top: 30px;
@@ -161,6 +165,9 @@ main div button a{
 }
 #section2 .section2__contenedor .section2__contenedor__categorias button{
     margin-left: 70px;
+}
+#section2 .section2__contenedor .section2__contenedor__categorias .section2__contenedor__categorias_btn button a{
+    text-decoration: none;
 }
 
 
